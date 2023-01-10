@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Vue + TS</title>
+  <script>
+    window.$adManager = {
+      uid: 1013417,
+      defaults: {
+        unit: 'antyweb.pl',
+        size: 'billboard'
+      },
+      sizing: {
+        billboard: [
+          { window: [0, 0], 'sizes': [[300, 250], [340, 300], [340, 250], [340, 400]] },
+          {
+            window: [1200, 100],
+            sizes: [[750, 300]]
+          }
+        ]
+      }
+    }
+  </script>
+</head>
+<body>
+<!--<div id="app"></div>-->
+<gam-banner unit="antyweb.pl" size="billboard" class="my-class"></gam-banner>
+
+<script src="/dist/gam-banner.js"></script>
+<!--<script type="module" src="/src/main.ts"></script>-->
+</body>
+</html>
